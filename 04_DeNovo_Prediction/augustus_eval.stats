@@ -1,0 +1,30 @@
+# gffcompare v0.11.2 | Command line was:
+#gffcompare -r ../gff.gff -o augustus_eval augustus_out.gff3
+#
+
+#= Summary for dataset: augustus_out.gff3 
+#     Query mRNAs :    5413 in    5413 loci  (331 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :    6119 in    6114 loci  (354 multi-exon)
+# Super-loci w/ reference transcripts:     5306
+#-----------------| Sensitivity | Precision  |
+        Base level:    97.4     |    98.3    |
+        Exon level:    80.0     |    90.0    |
+      Intron level:    44.5     |    46.6    |
+Intron chain level:    44.9     |    48.0    |
+  Transcript level:    82.7     |    93.5    |
+       Locus level:    82.7     |    93.5    |
+
+     Matching intron chains:     159
+       Matching transcripts:    5059
+              Matching loci:    5059
+
+          Missed exons:     884/6503	( 13.6%)
+           Novel exons:     164/5780	(  2.8%)
+        Missed introns:     145/384	( 37.8%)
+         Novel introns:     128/367	( 34.9%)
+           Missed loci:     743/6114	( 12.2%)
+            Novel loci:      84/5413	(  1.6%)
+
+ Total union super-loci across all input datasets: 5390 
+5413 out of 5413 consensus transcripts written in augustus_eval.annotated.gtf (0 discarded as redundant)

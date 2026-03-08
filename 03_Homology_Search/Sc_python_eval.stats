@@ -1,0 +1,29 @@
+# gffcompare v0.11.2 | Command line was:
+#gffcompare -V -r gff.gff Sc_python_modified.gff3 -o Sc_python_eval
+#
+
+#= Summary for dataset: Sc_python_modified.gff3 
+#     Query mRNAs :   11058 in    6648 loci  (0 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.7 transcripts per locus)
+# Reference mRNAs :    6119 in    6114 loci  (354 multi-exon)
+# Super-loci w/ reference transcripts:     5581
+#-----------------| Sensitivity | Precision  |
+        Base level:    96.9     |    95.5    |
+        Exon level:    78.5     |    58.3    |
+      Intron level:     0.0     |    -nan    |
+Intron chain level:     0.0     |    -nan    |
+  Transcript level:    83.2     |    46.0    |
+       Locus level:    83.3     |    76.5    |
+
+     Matching intron chains:       0
+       Matching transcripts:    5090
+              Matching loci:    5090
+
+          Missed exons:     723/6503	( 11.1%)
+           Novel exons:    1114/9171	( 12.1%)
+        Missed introns:     384/384	(100.0%)
+           Missed loci:     508/6114	(  8.3%)
+            Novel loci:     870/6648	( 13.1%)
+
+ Total union super-loci across all input datasets: 6451 
+11058 out of 11058 consensus transcripts written in Sc_python_eval.annotated.gtf (0 discarded as redundant)

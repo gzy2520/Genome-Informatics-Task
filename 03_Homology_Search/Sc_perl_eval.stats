@@ -1,0 +1,30 @@
+# gffcompare v0.11.2 | Command line was:
+#gffcompare -V -r gff.gff Sc_perl_modified.gff3 -o Sc_perl_eval
+#
+
+#= Summary for dataset: Sc_perl_modified.gff3 
+#     Query mRNAs :    8681 in    6461 loci  (259 multi-exon transcripts)
+#            (65 multi-transcript loci, ~1.3 transcripts per locus)
+# Reference mRNAs :    6119 in    6114 loci  (354 multi-exon)
+# Super-loci w/ reference transcripts:     5577
+#-----------------| Sensitivity | Precision  |
+        Base level:    96.8     |    95.6    |
+        Exon level:    78.2     |    71.0    |
+      Intron level:     1.3     |     2.2    |
+Intron chain level:     1.1     |     1.5    |
+  Transcript level:    83.0     |    58.5    |
+       Locus level:    83.1     |    78.5    |
+
+     Matching intron chains:       4
+       Matching transcripts:    5078
+              Matching loci:    5078
+
+          Missed exons:     729/6503	( 11.2%)
+           Novel exons:     940/7397	( 12.7%)
+        Missed introns:     328/384	( 85.4%)
+         Novel introns:     163/225	( 72.4%)
+           Missed loci:     509/6114	(  8.3%)
+            Novel loci:     816/6461	( 12.6%)
+
+ Total union super-loci across all input datasets: 6393 
+8681 out of 8681 consensus transcripts written in Sc_perl_eval.annotated.gtf (0 discarded as redundant)

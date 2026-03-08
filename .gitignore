@@ -1,0 +1,47 @@
+# 模拟数据（大体积中间文件）
+01_Simulation/**/*.sam
+01_Simulation/**/*.fq
+01_Simulation/**/*.aln
+01_Simulation/**/*.cfg
+
+# 组装中间产物
+02_Assembly/fastqc_out/
+02_Assembly/quast_out/
+02_Assembly/quast_cmp/
+02_Assembly/soap_out/
+
+# 同源搜索中间产物
+03_Homology_Search/*.bam
+03_Homology_Search/*.sam
+03_Homology_Search/*.ndb
+03_Homology_Search/*.nhr
+03_Homology_Search/*.nin
+03_Homology_Search/*.njs
+03_Homology_Search/*.not
+03_Homology_Search/*.nsq
+03_Homology_Search/*.ntf
+03_Homology_Search/*.nto
+03_Homology_Search/*.bt2
+03_Homology_Search/plot-bamstats_out/
+03_Homology_Search/proteins_uniprot/
+
+# 从头预测中间产物
+04_DeNovo_Prediction/*.pdb
+04_DeNovo_Prediction/*.phr
+04_DeNovo_Prediction/*.pin
+04_DeNovo_Prediction/*.pjs
+04_DeNovo_Prediction/*.pot
+04_DeNovo_Prediction/*.psq
+04_DeNovo_Prediction/*.ptf
+04_DeNovo_Prediction/*.pto
+04_DeNovo_Prediction/*.log
+
+# 可视化冗余文件
+06_Visualization/jbrowse/
+06_Visualization/JBrowse-1.16.12.zip
+
+# 其他冗余文件
+*.log
+*.fai
+soap_out.gapSeq
+*.DS_Store
